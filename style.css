@@ -173,9 +173,26 @@ span{
     padding: 15px;
 }
 
+.name,.mail,.ask-about,.detail{
+    margin-bottom: 20px;
+}
+
 .name,.mail,.asking,.detail label{
     font-size: 15px;
     font-weight: 700;
+    margin-bottom: ;
+}
+
+#name,#detail{
+    padding: 10px;
+}
+
+#mail{
+    padding: 10px 16px;
+}
+
+.radio-button{
+    padding: 10px;
 }
 
 footer{

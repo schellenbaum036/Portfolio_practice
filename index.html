@@ -75,14 +75,48 @@
     <div id="contact">
         <div class="contents">
             <h2>CONTACT</h2>
-            <form class="parsonal-information">
-                <label for="name">氏名<span>*</span></label>
-                <input id="name" type="text">
-                <label for="mail">メールアドレス<span>*</span></label>
-                <input id="mail" type="text">
-                <label for="contact">お問い合わせ内容<span>*</span></label>
-                <input id="select" type="radio" name="job" value="仕事について相談したい">仕事について相談したい
-                <label for="select">仕事について相談したい</label>
+            <div class="form">
+
+                <form class="personal-information">
+                    <div class="name">
+                        <label for="name">氏名<span>*</span></label>
+                        <input id="name" type="text">
+                    </div>
+                    <div class="mail">
+                        <label for="mail">メールアドレス<span>*</span></label>
+                        <input id="mail" type="text">
+                    </div>
+                    <div class="ask_about">
+                        <div class="asking">    
+                            <label for="contact">お問い合わせ内容<span>*</span></label>
+                        </div>
+                        <div class="radio-button">
+                            <input id="acout-job" type="radio" name="job" value="仕事について相談したい">
+                            <label for="aout-job">仕事について相談したい</label>
+                        </div>
+                        <div class="radio-button">
+                            <input id="about-cost" type="radio" name="cost" value="仕事について相談したい">
+                            <label for="about-cost">費用について知りたい</label>
+                        </div>
+                        <div class="radio-button">
+                            <input id="about-limit" type="radio" name="limit" value="仕事について相談したい">
+                            <label for="about-limit">納期について相談したい</label>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <label for="detail">お問い合わせ詳細<span>*</span></label>
+                        <textarea name="message" id="detail" cols="90" rows="7"></textarea>
+                    </div>
+                    <div class="privacy">
+                        <input type="checkbox" name="privacy" id="check">
+                        <label for="check" value="プライバシーポリシーに同意する">プライバシーポリシーに同意する</label>
+                    </div>
+                    <div class="sending">
+                        <a href="#">送信</a>
+                    </div>
+                </div>
+
+
             </form>
         </div>
             

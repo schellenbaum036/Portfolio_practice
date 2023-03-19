@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+@media screen and (max-width: 600px){
+
+    body{
+        font-family: 'Lato';
+        
+    }
+
+    .index{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 485px){
+    
+    body{
+        font-family: 'Lato';
+        
+    }
+
+    h1{
+        font-size: 72px;
+    }
+}

@@ -180,7 +180,7 @@ span{
 .name,.mail,.asking,.detail label{
     font-size: 15px;
     font-weight: 700;
-    margin-bottom: ;
+    margin-bottom: 10px;
 }
 
 #name,#detail{

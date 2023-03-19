@@ -16,13 +16,13 @@
 }
 
 @media screen and (max-width: 485px){
-    
+
     body{
         font-family: 'Lato';
         
     }
 
-    h1{
+    #mainvisual h1{
         font-size: 72px;
     }
 }

@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 body{
+    font-family: 'Lato';
     width: 100vw;
     height: auto;
 }
@@ -12,6 +15,7 @@ header{
     background-color: #FFFFFF;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     position: fixed;
 }
 
@@ -177,7 +181,7 @@ span{
     margin-bottom: 20px;
 }
 
-.name,.mail,.asking,.detail label{
+.name label,.mail label,.asking label,.detail label{
     font-size: 15px;
     font-weight: 700;
     margin-bottom: 10px;
